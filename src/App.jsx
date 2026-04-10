@@ -5,6 +5,7 @@ import ProductList from './components/products'
 import ContextButtonComponent from './components/products/components/context-concept/button.jsx'
 import ContextTextComponent from './components/products/components/context-concept/text.jsx'
 import Users from './components/products/components/users/index.jsx'
+import UseReducerExample from './components/use-reducer-example.jsx'
 
 const dummyProductData = ['Product 1', 'Product 2', 'Product 3']
 
@@ -17,8 +18,10 @@ function App () {
       {/* <ProductList dummyProductData={dummyProductData} name='Suryansh' city="Lucknow"/> */}
       {/* <Users /> */}
 
-      <ContextButtonComponent />
-      <ContextTextComponent />
+      {/* <ContextButtonComponent />
+      <ContextTextComponent /> */}
+
+      <UseReducerExample />
     </div>
   )
 }
